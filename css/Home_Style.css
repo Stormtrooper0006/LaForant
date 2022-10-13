@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Agency Fb", Arial;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.head-nav{
+    display:flex;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+}
+#head-logo-image{
+    width:200px;
+    height :75px;
+}
+.nav-menu{
+    display: none;
+    color: white;
+}
+.navigation{
+    position: relative;
+    width: 60%;
+}
+.nav-container{
+    display: flex;
+}
+.nav-content{
+    padding: 3.5%;
+}
+.nav-content a{
+    color: white;
+}
+.nav-content:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.nav-content:hover a{
+    color: black;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12pt;
+    padding-bottom: 7%;
+}
+
+#lf_logo{
+    width: 1258px; 
+    height: 450px;
+}
+
+.agents{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(38, 38, 38);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14pt;
+    color: white;
+}
+
+.agents-img{
+    padding: 5% 5%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#altman{
+    width: 249px;
+    height: 525px;
+}
+
+#emilia{
+    width: 249px;
+    height: 525px;
+}
+
+.agent{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.agent:hover{
+    transform: scale(1.1);
+}
+
+.maps{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(38, 38, 38);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14pt;
+    color: white;
+}
+
+.maps-img{
+    padding: 5% 5%;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%
+}
+
+.map:hover{
+    transform: scale(1.1);
+}
+
+#dockyard{
+    width: 550px;
+    height: 379px;
+}
+
+#swamp{
+    width: 550px;
+    height: 379px;
+}
+
+.socmed{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(38, 38, 38);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14pt;
+    color: white;
+}
+
+.socmed-icon{
+    padding: 5% 5%;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+.icons:hover{
+    transform: scale(1.1);
+}
+
+#facebook{
+    width: 150px;
+    height: 150px;
+}
+
+#instagram{
+    width: 150px;
+    height: 150px;
+}
+
+#twitter{
+    width: 150px;
+    height: 150px;
+}
+
+#email{
+    width: 150px;
+    height: 150px;
+}
+
+
+.footer{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+}
+#footer-logo-image{
+    width:200px;
+    height:75px;
+}
+.icon{
+    display: flex;
+    position: relative;
+}
+.social-media-container{
+    display: flex;
+    position: absolute;
+    right: 20%;
+    top: 30%;
+}
+.social-media{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#facebook_icon{
+    width: 50px;
+    height:50px;
+}
+#instagram_icon{
+    width: 50px;
+    height: 50px;
+}
+#twitter_icon{
+    width: 50px;
+    height: 50px;
+}
+.foot-extra{
+    color: white;
+    padding-left: 2.5%;
+}
+
+
+
+
+@media (max-width:800px){
+    .nav-menu{
+        display: block;
+        padding: 6%;
+    }
+    .nav-container{
+        display: none;
+    }
+    .navigation:hover .nav-container{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(38, 38, 38);
+        width: 100%;
+    }
+}

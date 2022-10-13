@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Register</title>
+    <link rel="stylesheet" href="../css/Pre-Register_Style.css">
+    <link rel="stylesheet" href="https://allfont.net/allfont.css?fonts=agency-fb"/>
+</head>
+<body>
+    <div class="head-nav">
+        <div class="head-logo">
+            <a href="Home.html"><img src="../Assets/LogoW.png" alt="" id="head-logo-image"></a>
+        </div>
+        <div class="navigation">
+            <div class="nav-menu">MENU</div>
+            <div class="nav-container">
+                <div class="nav-content"><a href="Home.html">HOME</a></div>
+                <div class="nav-content"><a href="Maps.html">MAPS</a></div>
+                <div class="nav-content"><a href="Agents.html">AGENTS</a></div>
+                <div class="nav-content"><a href="System Requirements.html">SYSTEM REQUIREMENTS</a></div>
+                <div class="nav-content"><a href="Pre-Register.html">PRE-REGISTER</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <form id="form-pre_register" action="" method="POST">
+            <img src="../Assets/Logo.png" alt="" id="content-logo">
+            <h1>PRE-REGISTER FORM</h1>
+            <br>
+            <div class="content-email">
+                <label class="content-email-label" for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="error" id="error-email"></div>
+            <div class="content-username">
+                <label class="content-username-label" for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="5 - 15 character">
+            </div>
+            <div class="error" id="error-username"></div>
+            <div class="content-password">
+                <label class="content-password-label" for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="5 - 20 character and contain number, uppercase, and lowercase">
+            </div>
+            <div class="error" id="error-password"></div>
+            <div class="content-dob">
+                <label class="content-dob-label" for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob">
+                <div class="error" id="error-dob"></div>
+            </div>
+            <div class="content-nationality">
+                <label class="content-nationality-label" for="nationality">Nationality</label>
+                <select name="Nationality" id="nationality">
+                    <option value="-">-</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Cina">Cina</option>
+                    <option value="Japan">Japan</option>
+                    <option value="America">America</option>
+                    <option value="Other">Other</option>
+                </select>
+                <div class="error" id="error-nationality"></div>
+            </div>
+            <div class="content-user_agreement">
+                <label class="content-user_agreement-label" for="agreement">Agreement to user terms</label>
+                <input type="checkbox" name="user_agreement" id="user_agreement">
+                <div class="error" id="error-user_agreement"></div>
+            </div>
+            <p class="user_agreement-text">
+                By agreeing to user terms & agreements on our websites, you acknowledge that you have read, understood and accepted the following terms.<br>
+                1. What Data We Collect and Process <br>
+                &emsp;Some data used to identify an individual, such as email adress, date of birth, and nationality. <br>
+                2. Why We Collect and Process Your Personal Data <br>
+                &emsp;- Allow or restrict you from our servicces. <br>
+                &emsp;- Verify that you are not a bot <br>
+                3. Who May Access Your Personal Data <br>
+                &emsp;- Other Users of Our Services <br>
+                Other users might do such thing as see your displayed data on your profile or read the messages that you have posted through our services. It is recommended to avoid posting any personal or sensitive information. <br>
+                &emsp;- Competent Authorities
+                </p>
+            <br>
+            <div class="content-submit">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="icon">
+            <div class="logo">
+                <img src="../Assets/LogoW.png" alt="" id="footer-logo-image">
+            </div>
+            <div class="social-media-container">
+                <div class="social-media">
+                    <a href="https://www.facebook.com"><img src="../Assets/facebookW.png" alt="" id="facebook_icon"></a>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.instagram.com"><img src="../Assets/instagramW.png" alt="" id="instagram_icon"></a>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.twitter.com"><img src="../Assets/twitterW.png" alt="" id="twitter_icon"></a>
+                </div>
+            </div>
+        </div>
+        <div class="foot-extra">@ 2021 LaForant Inc.</div>
+    </div>
+</body>
+<script src="../JS/Pre-Register.js"></script>
+</html>
