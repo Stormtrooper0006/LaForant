@@ -1,1 +1,1 @@
-
+![screencapture-file-C-Users-AKIRA-Documents-CV-Resume-Porto-Portofolio-App-etc-LaForant-Website-LaForant-html-Home-html-2022-05-15-14_12_49](https://github.com/user-attachments/assets/5c547b68-82e8-4170-a27d-09a9f4750e6b)
